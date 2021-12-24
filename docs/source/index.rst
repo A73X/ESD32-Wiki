@@ -19,6 +19,7 @@ Bienvenue sur la documentation ESD32 !
    exploits.rst
    metasploit.rst
    msfvenom.rst
+   reverseshell.rst
    exfiltration.rst
    
   
