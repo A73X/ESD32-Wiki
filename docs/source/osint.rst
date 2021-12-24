@@ -1,0 +1,449 @@
+===========
+OSINT TOOLS
+===========
+
+**Source** : https://securitytrails.com/blog/osint-tools
+
+Intro
+=====
+
+Lorsque vous commencez une enquête de sécurité informatique, la première phase à laquelle vous serez confronté est la **reconnaissance des données et la collecte d'informations sur votre cible**. Une fois que vous aurez fini de recueillir des informations sur votre objectif, vous disposerez de toutes les informations nécessaires telles que les adresses IP, les noms de domaine, les serveurs, la technologie et bien d'autres choses encore, afin de pouvoir enfin effectuer vos tests de sécurité.
+
+**Quels sont les meilleurs outils OSINT pour obtenir ces précieuses informations ? Vous cherchez à suivre les personnes et les données d'entreprise, les domaines, les IP, les serveurs et les logiciels en cours d'exécution ?**
+
+Nous avons la réponse à ces questions. Dans cet article, nous allons vous présenter les meilleurs outils de collecte d'informations Recon et Intel pour les chercheurs en sécurité informatique.
+
+OSINT en cybersécurité
+======================
+
+OSINT est l'acronyme de "Open Source Intelligence". Et de la même manière que les équipes de renseignement militaire jouent un rôle essentiel pour prendre l'avantage sur l'ennemi, l'OSINT joue un rôle essentiel dans le domaine de la cybersécurité.
+
+L'Open Source Intelligence alimente les équipes de cybersécurité, laissant les équipes bleues, violettes et rouges accéder à un large éventail d'informations telles que les technologies réseau, les serveurs d'hébergement web, les enregistrements DNS, les technologies logicielles, les actifs cloud, les dispositifs IoT, les apps, les bases de données, les comptes de médias sociaux, et bien plus encore.
+
+L'OSINT est largement utilisé au sein de différents types d'organisations, d'entreprises, d'agences publiques et privées. Même le gouvernement américain, en 2005, a déclaré l'importance d'utiliser efficacement les informations open source.
+
+Imaginez un instant que toutes ces informations critiques tombent entre des mains criminelles. Cela pourrait marquer le début d'une attaque contre vos actifs en ligne.
+
+L'adoption des outils OSINT appropriés aidera votre entreprise à renforcer ses défenses en matière de cybersécurité ou, si vous travaillez dans une équipe rouge, à augmenter la quantité d'informations précieuses que vous obtiendrez.
+
+Si les outils de renseignement open source sont fréquemment utilisés pour atteindre un large éventail d'objectifs, ils se concentrent souvent sur quelques domaines spécifiques :
+
+Trouver des biens publics inconnus
+==================================
+
+Les biens publics sont partout, mais les biens les plus dangereux sont ceux que vous ne voyez pas, les biens d'infrastructure inconnus. C'est pourquoi la création d'une carte complète de toute votre infrastructure en ligne, ainsi que des autres types de services que vous utilisez, est la première chose que les bons et les méchants feront au cours d'un processus de collecte d'informations.
+
+Cela peut conduire soit à une bonne défense plus forte, soit à être victime de différents types de cyberattaques lancées contre votre organisation.
+
+Détection à l'extérieur des données critiques de l'entreprise
+=============================================================
+
+Parfois, les données ne se trouvent pas sur la surface publique de votre entreprise. Elles sont parfois situées ailleurs, ce qui se produit souvent lorsque vous travaillez avec de nombreux services SaaS liés à des tiers ou à des quatrièmes parties. Parmi les autres problèmes courants, citons les fusions et acquisitions qui, si elles sont négligées, peuvent inviter des vecteurs d'attaque externes dans la société mère. Et l'OSINT peut s'avérer très utile lors de l'audit de cybersécurité contre les fusions et acquisitions (https://securitytrails.com/blog/cybersecurity=mergers=acquisitions).
+
+Regrouper les données critiques en plans utiles
+===============================================
+
+Une fois que vous avez trouvé les données les plus utiles sur tous les fronts en utilisant les bons outils OSINT, il est temps de rassembler et de regrouper toutes ces données et de les transformer en plans fonctionnels. Qu'allons=nous faire de ces ports ouverts ? Qui est chargé de mettre à jour ces logiciels obsolètes ? Quand allons=nous supprimer ces enregistrements DNS périmés ? Toutes ces questions, et bien d'autres encore, peuvent servir de base à la création de vos plans les plus appropriés et exploitables, une fois que vous aurez regroupé toutes vos données sensibles comme base.
+
+Maintenant que vous savez ce qu'est l'OSINT et comment il est utilisé pour la cybersécurité, passons directement à la partie amusante : un bref examen de tous les outils OSINT recommandés.
+
+Les 25 meilleurs outils OSINT utilisés par les professionnels de l'InfoSec
+==========================================================================
+
+.. important:: Avant de commencer : rappelez=vous que vous ne devez jamais utiliser ces outils sur des réseaux/systèmes externes sans autorisation préalable. Ces outils OSINT sont présentés ici afin d'aider les chercheurs en sécurité informatique et les enquêteurs en infosecurité privés et publics lors de la première phase de collecte d'informations, qui est l'une des parties les plus importantes d'une enquête de cybersécurité.
+
+---------------
+OSINT Framework
+---------------
+
+Bien que l'`OSINT Framework`_ ne soit pas un outil à exécuter sur vos serveurs, c'est un moyen très utile d'obtenir des informations précieuses en interrogeant des moteurs de recherche, des ressources et des outils gratuits disponibles publiquement sur Internet. L'objectif est d'offrir les meilleurs liens vers des sources précieuses de données OSINT.
+
+.. _OSINT Framework: http://osintframework.com/
+
+Bien que cette application Web ait été créée à l'origine pour la sécurité informatique, elle a évolué au fil du temps et vous pouvez aujourd'hui obtenir d'autres types d'informations provenant d'autres secteurs. La plupart des sites Web qu'elle utilise pour interroger les informations sont gratuits, mais certains peuvent nécessiter le paiement d'une faible redevance.
+
+--------------
+CheckUserNames
+--------------
+
+`CheckUserNames`_ est un outil OSINT en ligne qui peut vous aider à trouver des noms d'utilisateur sur plus de 170 réseaux sociaux. Il est particulièrement utile si vous menez une enquête pour déterminer l'utilisation d'un même nom d'utilisateur sur différents réseaux sociaux.
+
+.. _CheckUserNames: https://checkusernames.com/
+
+--------------
+HaveIbeenPwned
+--------------
+
+`HaveIbeenPwned`_ peut vous aider à vérifier si votre compte a été compromis dans le passé. Ce site a été développé par Troy Hunt, l'un des professionnels de la sécurité informatique les plus respectés sur ce marché, et il fournit des rapports précis depuis des années.
+
+.. _HaveIbeenPwned: https://haveibeenpwned.com/
+
+Si vous soupçonnez que votre compte a été compromis, ou si vous voulez vérifier si des tiers ont compromis des comptes externes, c'est l'outil idéal. Il peut traquer les compromissions web à partir de nombreuses sources comme les comptes Gmail, Hotmail, Yahoo, ainsi que LastFM, Kickstarter, Wordpress.com, Linkedin et de nombreux autres sites web populaires.
+
+Une fois que vous aurez introduit votre adresse électronique, les résultats s'afficheront, montrant quelque chose comme :
+
+.. warning:: Oh no — pwned! - Pwned in X data breaches and found no pastes (subscribe to search sensitive breaches)
+
+------------------
+SecurityTrails API
+------------------
+
+`L'API de SecurityTrails`_ vous permet d'accéder instantanément aux enregistrements DNS actuels et historiques, aux détails des domaines et aux domaines associés, aux informations IP, ainsi qu'aux données WHOIS, afin que vous puissiez les intégrer à vos propres applications pour la découverte de ressources, le renseignement sur les menaces, l'évaluation des risques, et bien plus encore. Le plus intéressant est que vous n'avez besoin que d'une requête HTTP pour récupérer les données, par exemple :
+
+.. _L'API de SecurityTrails: https://securitytrails.com/corp/api
+
+.. code-block:: bash
+
+  curl --request GET \
+  --url https://api.securitytrails.com/v1/history/netflix.com/dns/a \
+  --header 'apikey: >'
+
+------
+Censys
+------
+
+`Censys`_ est un merveilleux moteur de recherche utilisé pour obtenir les informations les plus récentes et les plus précises sur n'importe quel dispositif connecté à Internet, qu'il s'agisse de serveurs ou de noms de domaine.
+
+.. _Sensys: https://censys.io/
+
+Vous serez en mesure de trouver tous les détails géographiques et techniques sur les ports 80 et 443 fonctionnant sur n'importe quel serveur, ainsi que le contenu du corps HTTP/S et la réponse GET du site web cible, le Handshake Chrome TLS, les informations complètes sur la chaîne de certificats SSL et les informations WHOIS.
+
+----------
+Wappalyzer
+----------
+
+`Wappalyzer`_ est un service très utile qui permet aux chercheurs en sécurité d'identifier rapidement les technologies présentes sur les sites Web. Grâce à lui, vous pouvez trouver une liste complète de détails pour toute pile technologique fonctionnant sur n'importe quel site Web. Il vous permet également de dresser des listes de sites Web qui utilisent certaines technologies et d'ajouter des numéros de téléphone et des adresses électroniques.
+
+.. _Wappalyzer: https://www.wappalyzer.com/
+
+La formule gratuite comprend des résultats instantanés et jusqu'à 50 consultations mensuelles gratuites. Il est parfait pour le suivi des technologies de sites Web, la découverte de logiciels anciens ou vulnérables, la recherche de données organiques sur vos concurrents, et enfin, il peut être rapidement déclenché à partir du navigateur Web grâce à ses extensions Chrome/Firefox.
+
+Si cela ne suffit pas, ils offrent également une API pratique pour automatiser les recherches de technologies, et vous pouvez même configurer des alertes de site Web pour surveiller votre concurrence.
+
+------------
+Google Dorks
+------------
+
+Lorsqu'ils enquêtent sur des personnes ou des entreprises, de nombreux débutants en sécurité informatique oublient l'importance de l'utilisation des moteurs de recherche traditionnels pour la reconnaissance et la collecte d'informations.
+
+Dans ce cas, les `Google Dorks`_ peuvent être votre meilleur ami. Ils existent depuis 2002 et peuvent vous être d'une grande aide dans votre reconnaissance d'informations.
+
+.. _Google Dorks: https://securitytrails.com/blog/google-hacking-techniques
+
+Les Google Dorks sont simplement des moyens d'interroger Google sur certaines informations qui peuvent être utiles pour votre enquête de sécurité.
+
+Les moteurs de recherche indexent un grand nombre d'informations sur presque tout ce qui se trouve sur Internet, y compris les individus, les entreprises et leurs données.
+
+Quelques opérateurs populaires utilisés pour effectuer le Google Dorking :
+
+- Filetype : vous pouvez utiliser cet opérateur pour trouver n'importe quel type de fichier.
+- Ext : peut vous aider à trouver des fichiers avec des extensions spécifiques (ex. .txt, .log, etc.).
+- Intext : peut effectuer des requêtes pour aider à rechercher un texte spécifique dans une page.
+- Intitle : recherche des mots spécifiques dans le titre de la page.
+- Inurl : recherche des mots spécifiques dans l'URL d'un site web.
+
+Les fichiers journaux ne sont pas censés être indexés par les moteurs de recherche, mais ils le sont, et vous pouvez obtenir des informations précieuses de ces Google Dorks.
+
+.. note:: Concentrons-nous maintenant sur d'autres outils plus pratiques utilisés par les professionnels de l'InfoSec les plus respectés.
+
+-------
+Maltego
+-------
+
+`Maltego`_ est un outil étonnant pour retrouver les empreintes de n'importe quelle cible que vous devez faire correspondre. Ce logiciel a été développé par Paterva, et il fait partie de la distribution Kali Linux.
+
+.. _Maltego: https://www.maltego.com/downloads/
+
+L'utilisation de Maltego vous permettra de lancer des tests de reconnaissance contre des cibles spécifiques.
+
+L'une des meilleures choses que ce logiciel inclut est ce qu'ils appellent des "transformations". Les transformations sont disponibles gratuitement dans certains cas, et sur d'autres, vous trouverez uniquement des versions commerciales. Elles vous aideront à exécuter un type différent de tests et d'intégration de données avec des applications externes.
+
+Pour utiliser Maltego, vous devez ouvrir un compte gratuit sur leur site web, après quoi vous pouvez lancer une nouvelle machine ou exécuter des transformations sur la cible à partir d'une machine existante. Une fois que vous avez choisi vos transformations, l'application Maltego commencera à exécuter toutes les transformations à partir des serveurs de Maltego.
+
+Enfin, Maltego vous montrera les résultats pour la cible spécifiée, comme l'IP, les domaines, les numéros AS, et bien plus encore.
+
+--------
+Recon-Ng
+--------
+
+`Recon-ng`_ est déjà intégré à la distribution Kali Linux et est un autre outil formidable utilisé pour effectuer une reconnaissance rapide et approfondie de cibles distantes.
+
+.. _Recon-ng: https://github.com/lanmaster53/recon-ng
+
+Ce cadre de reconnaissance web a été écrit en Python et comprend de nombreux modules, des fonctions pratiques et une aide interactive pour vous guider dans son utilisation.
+
+L'interface simple basée sur des commandes vous permet d'exécuter des opérations courantes telles que l'interaction avec une base de données, l'exécution de requêtes Web, la gestion des clés API ou la normalisation du contenu des sorties.
+
+La récupération d'informations sur n'importe quelle cible est assez facile et peut être effectuée en quelques secondes après l'installation. Il comprend des modules intéressants comme google_site_web et bing_domain_web qui peuvent être utilisés pour trouver des informations précieuses sur les domaines cibles.
+
+Alors que certains modules de reconnaissance sont plutôt passifs car ils ne touchent jamais le réseau cible, d'autres peuvent lancer des trucs intéressants directement sur l'hôte distant.
+
+------------
+theHarvester
+------------
+
+`theHarvester`_ est une autre excellente alternative pour obtenir des informations précieuses sur les noms de sous-domaines, les hôtes virtuels, les ports ouverts et l'adresse électronique d'une entreprise ou d'un site Web.
+
+.. _theHarvester: https://securitytrails.com/blog/theharvester-tool
+
+Ceci est particulièrement utile lorsque vous êtes dans les premières étapes d'un test de pénétration contre votre propre réseau local, ou contre les réseaux autorisés d'un tiers. Comme les outils précédents, theHarvester est inclus dans la distribution `Kali Linux`_.
+
+.. _Kali Linux: https://www.kali.org/
+
+theHarvester utilise de nombreuses ressources pour récupérer les données comme les serveurs de clés PGP, les moteurs de recherche Bing, Baidu, Yahoo et Google, ainsi que les réseaux sociaux comme Linkedin, Twitter et Google Plus.
+
+Il peut également être utilisé pour lancer des tests de pénétration actifs comme la force brute DNS basée sur une attaque par dictionnaire, les recherches `rDNS`_ et l'expansion DNS TLD à l'aide d'une énumération par force brute par dictionnaire.
+
+.. _rDNS: https://securitytrails.com/blog/reverse-dns
+
+------
+Shodan
+------
+
+`Shodan`_ est un moniteur de sécurité réseau et un moteur de recherche axé sur le web profond et l'internet des objets. Il a été créé par John Matherly en 2009 pour assurer le suivi des ordinateurs accessibles au public au sein d'un réseau.
+
+.. _Shodan: https://www.shodan.io/
+
+Il est souvent appelé le "moteur de recherche des hackers", car il vous permet de trouver et d'explorer différents types de dispositifs connectés à un réseau, tels que des serveurs, des routeurs, des webcams, etc.
+
+Shodan ressemble beaucoup à Google, mais au lieu de vous montrer des images fantaisistes et du contenu riche / des sites Web informatifs, il vous montrera des choses qui sont plus liées à l'intérêt des chercheurs en sécurité informatique comme les bannières et les informations publiques des serveurs SSH, FTP, SNMP, Telnet, RTSP, IMAP et HTTP. Les résultats seront affichés classés par pays, système d'exploitation, réseau et ports.
+
+Les utilisateurs de Shodan ne sont pas seulement capables d'atteindre des serveurs, des webcams et des routeurs. Il peut être utilisé pour scanner presque tout ce qui est connecté à Internet, y compris, mais sans s'y limiter, les systèmes de feux de circulation, les systèmes de chauffage domestique, les panneaux de contrôle des parcs aquatiques, les usines d'eau, les centrales nucléaires, et bien plus encore.
+
+------
+Jigsaw
+------
+
+`Jigsaw`_ est utilisé pour recueillir des informations sur les employés d'une entreprise. Cet outil fonctionne parfaitement pour des entreprises comme Google, Linkedin ou Microsoft, où il suffit de prendre un de leurs noms de domaine (comme google.com), puis de recueillir tous les e-mails de leurs employés dans les différents départements de l'entreprise.
+
+.. _Jigsaw: https://www.jigsawsecurityenterprise.com/
+
+Le seul inconvénient est que ces requêtes sont lancées sur la base de données Jigsaw située à l'adresse jigsaw.com, et que nous dépendons donc entièrement des informations qu'ils nous permettent d'explorer dans leur base de données. Vous serez en mesure de trouver des informations sur les grandes entreprises, mais si vous explorez une startup moins connue, vous risquez de manquer de chance.
+
+----------
+SpiderFoot
+----------
+
+`SpiderFoot`_ est l'un des meilleurs outils de reconnaissance disponibles si vous souhaitez automatiser l'OSINT et obtenir des résultats rapides pour la reconnaissance, le renseignement sur les menaces et la surveillance du périmètre.
+
+.. _SpiderFoot: https://www.spiderfoot.net/
+
+Il a été écrit par notre ami Steve Micallef, qui a fait un excellent travail en créant cette application et en écrivant l'addon SecurityTrails pour Splunk.
+
+Cet outil de reconnaissance peut vous aider à lancer des requêtes sur 100 sources de données publiques pour recueillir des renseignements sur les noms génériques, les noms de domaine, les adresses électroniques et les adresses IP.
+
+L'utilisation de Spiderfoot est assez simple, il suffit de spécifier la cible, de choisir les modules que vous voulez exécuter et Spiderfoot fera le travail difficile pour vous en collectant toutes les données d'intelligence à partir des modules.
+
+------
+Creepy
+------
+
+`Creepy`_ est un outil OSINT de géolocalisation destiné aux professionnels de l'infosecurité. Il offre la possibilité d'obtenir des données complètes de géolocalisation de n'importe quel individu en interrogeant des plateformes de réseaux sociaux comme Twitter, Flickr, Facebook, etc.
+
+.. _Creepy: https://www.geocreepy.com/
+
+Si quelqu'un télécharge une image sur l'un de ces réseaux sociaux avec la fonction de géolocalisation activée, vous serez en mesure de voir un mal actif complet où cette personne a été.
+
+Vous pourrez filtrer en fonction des lieux exacts, ou même par date. Ensuite, vous pourrez exporter les résultats au format CSV ou KML.
+
+----
+Nmap
+----
+
+`Nmap`_ est l'un des outils d'audit de sécurité les plus populaires et les plus utilisés, son nom signifie "Network Mapper". Il s'agit d'un utilitaire gratuit et open source utilisé pour l'audit de sécurité et l'exploration du réseau sur des hôtes locaux et distants.
+
+.. _Nmap: https://nmap.org/
+
+Voici quelques-unes de ses principales fonctionnalités :
+
+- Détection des hôtes : Nmap a la capacité d'identifier les hôtes à l'intérieur de tout réseau qui ont certains ports ouverts, ou qui peuvent envoyer une réponse aux paquets ICMP et TCP.
+- Détection des informations IP et DNS : y compris le type d'appareil, les adresses Mac et même les noms DNS inversés.
+- Détection des ports : Nmap peut détecter n'importe quel port ouvert sur le réseau cible, et vous indiquer les services qui peuvent y être exécutés.
+- Détection du système d'exploitation : obtenez une détection complète de la version du système d'exploitation et des spécifications matérielles de tout hôte connecté.
+- Détection de la version : Nmap est également capable d'obtenir le nom de l'application et son numéro de version.
+
+-------
+WebShag
+-------
+
+`WebShag`_ est un excellent outil d'audit de serveur utilisé pour analyser les protocoles HTTP et HTTPS. Comme les autres outils, il fait partie de Kali Linux et peut vous aider beaucoup dans vos recherches en sécurité informatique et vos tests de pénétration.
+
+.. _WebShag: https://github.com/wereallfeds/webshag
+
+Vous pourrez lancer un simple scan, ou utiliser des méthodes avancées comme à travers un proxy, ou par authentification HTTP.
+
+Écrit en Python, il peut être l'un de vos meilleurs alliés lors de l'audit de systèmes.
+
+Les principales caractéristiques sont les suivantes :
+
+- `Port Scan`_
+- URL scanning
+- File fuzzing
+- Website crawling
+
+.. _Port Scan: https://securitytrails.com/blog/best-port-scanners
+
+Afin d'éviter d'être bloqué par les systèmes de sécurité des serveurs distants, il utilise un système intelligent d'évasion IDS en lançant des requêtes aléatoires par serveur proxy HTTP, de sorte que vous pouvez continuer à auditer le serveur sans être interdit.
+
+-------
+OpenVAS
+-------
+
+`OpenVAS`_ (Open Vulnerability Assessment System) est un cadre de sécurité qui comprend des services et des outils particuliers pour les professionnels de l'infosec.
+
+.. _OpenVas: http://www.openvas.org/
+
+Il s'agit d'un scanner de vulnérabilité et d'un gestionnaire de sécurité open source qui a été construit après que le célèbre Nessus soit passé d'une source ouverte à une source privée. Ensuite, les développeurs originaux du scanner de vulnérabilité Nessus ont décidé de bifurquer du projet original et de créer OpenVAS.
+
+Bien qu'il soit un peu plus difficile à configurer que l'ancien Nessus, il est assez efficace lorsqu'on l'utilise pour analyser la sécurité des hôtes distants.
+
+Le principal outil inclus dans OpenVAS est OpenVAS Scanner, un agent très efficace qui exécute tous les tests de vulnérabilité du réseau sur la machine cible.
+
+D'autre part, un autre composant principal est appelé OpenVAS Manager, qui est essentiellement une solution de gestion des vulnérabilités qui vous permet de stocker les données scannées dans une base de données SQLite, de sorte que vous pouvez rechercher, filtrer et ordonner les résultats du scan d'une manière simple et fantaisiste.
+
+------
+Fierce
+------
+
+`Fierce`_ est un outil de reconnaissance d'IP et de DNS écrit en PERL, célèbre pour aider les professionnels de la sécurité informatique à trouver les IP cibles associées aux noms de domaine.
+
+.. _Fierce: https://github.com/mschwager/fierce
+
+Il a été écrit à l'origine par RSnake avec d'autres membres de l'ancien http://ha.ckers.org/. Il est utilisé principalement pour cibler les réseaux d'entreprise locaux et distants.
+
+Une fois que vous avez défini votre réseau cible, il lancera plusieurs analyses contre les domaines sélectionnés, puis il essaiera de trouver des réseaux mal configurés et des points vulnérables susceptibles de laisser échapper des données privées et précieuses.
+
+Les résultats seront prêts en quelques minutes, un peu plus que lorsque vous effectuez un autre scan avec des outils similaires comme Nessus, `Nikto`_, Unicornscan, etc.
+
+.. _Nikto: https://securitytrails.com/blog/nikto-website-vulnerability-scanner
+
+-----------
+Unicornscan
+-----------
+
+`Unicornscan`_ est l'un des meilleurs outils de collecte d'informations pour la recherche en sécurité. Il dispose également d'un moteur de corrélation intégré qui se veut à la fois efficace, flexible et évolutif.
+
+.. _Unicornscan: https://github.com/dneufeld/unicornscan
+
+Ses principales caractéristiques sont les suivantes :
+
+- Scan complet des périphériques/réseaux TCP/IP.
+- Analyse TCP asynchrone sans état (y compris toutes les variations de drapeaux TCP).
+- Détection asynchrone des bannières TCP.
+- Analyse du protocole UDP.
+- Identification de l'OS A/P.
+- Détection des applications et des composants.
+- Prise en charge de la sortie relationnelle SQL
+
+----
+Foca
+----
+
+`FOCA`_ (Fingerprinting Organizations with Collected Archives) est un outil écrit par ElevenPaths qui peut être utilisé pour scanner, analyser, extraire et classer les informations de serveurs web distants et leurs informations cachées.
+
+.. _Foca: https://www.elevenpaths.com/innovation-labs/technologies/foca
+
+Foca a la capacité d'analyser et de collecter des données précieuses à partir de la suite MS Office, d'OpenOffice, de PDF, ainsi que d'Adobe InDesign et de fichiers SVG et GIF. Cet outil de sécurité travaille également activement avec les moteurs de recherche Google, Bing et DuckDuckGo pour collecter des données supplémentaires à partir de ces fichiers. Une fois que vous avez la liste complète des fichiers, il commence à extraire des informations pour tenter d'identifier des données plus précieuses à partir des fichiers.
+
+-------
+ZoomEye
+-------
+
+Dans le monde de la cybersécurité, nous, les chercheurs, sommes habitués aux moteurs de recherche IoT populaires tels que Shodan ou Censys. Depuis un certain temps, cependant, un nouveau moteur de recherche IoT puissant a rapidement gagné des adeptes. Il s'agit de ZoomEye.
+
+`ZoomEye`_ est un moteur de recherche OSINT IoT chinois qui permet aux utilisateurs de saisir des données publiques à partir d'appareils et de services Web exposés. Afin de construire sa base de données, il utilise Wmap et Xmap, puis exécute une empreinte digitale étendue sur toutes les informations trouvées, pour finalement les présenter aux utilisateurs de manière filtrée et triée pour une visualisation facile.
+
+.. _ZoomEye: https://www.zoomeye.org/
+
+Quelles informations pouvez-vous trouver avec ZoomEye ?
+
+- Les IP qui interagissent avec les réseaux et les hôtes
+- Ports ouverts sur des serveurs distants
+- Nombre total de sites Web hébergés
+- Nombre total d'appareils trouvés
+- Carte interactive des utilisateurs qui utilisent différents appareils
+- Rapport sur les vulnérabilités
+
+Et bien plus encore. La version publique donne accès à de nombreuses données, mais si vous voulez voir ce qu'elle peut vraiment faire, nous vous suggérons de vous inscrire pour un compte gratuit. Vous pourrez ainsi tester la puissance réelle de cet outil OSINT.
+
+-----------
+OWASP Amass
+-----------
+
+Écrit à l'origine par notre ami Jeff Foley, `OWASP Amass`_ est probablement l'un des meilleurs outils de reconnaissance et de cartographie réseau du marché. Il est largement utilisé pour la découverte de réseaux, l'énumération des DNS et les tâches générales de cartographie de la surface d'attaque avec un ensemble varié de techniques, en mettant l'accent sur la collecte d'informations et la récupération de données sur les protocoles HTTP, SSL/TLS et DNS.
+
+.. _OWASP Amess: https://securitytrails.com/blog/owasp-amass
+
+Et si cela ne suffit pas, il fournit également des intégrations d'API avec des services de données de cybersécurité populaires, tels que notre propre API SecurityTrails.
+
+----
+IVRE
+----
+
+Cet outil d'infosec est souvent négligé, mais il a un grand potentiel pour stimuler vos processus de découverte et d'analyse d'infosec. `IVRE`_ est un outil open source construit sur la base de projets populaires comme Nmap, Masscan, ZDNS et ZGrab2.
+
+.. _IVRE: https://doc.ivre.rocks/en/latest/
+
+Son cadre utilise ces outils populaires pour recueillir des renseignements sur le réseau de n'importe quel hôte, puis utilise une base de données MongoDB pour stocker les données.
+
+Son interface Web permet aux utilisateurs d'infosec débutants et avancés d'effectuer facilement les actions suivantes :
+
+- Reconnaissance passive par analyse de flux (à partir de Zeek, Argus ou nfdump).
+- Reconnaissance active par l'utilisation de Zmap et Nmap
+- Analyse d'empreintes digitales
+- Importation de données à partir d'autres applications Infosec de tierce partie, telles que Masscan/Nmap.
+
+IVRE peut être installé en récupérant les sources à partir de leur repo Github officiel, ou à partir de dépôts tiers tels que le repo Kali Linux.
+
+----------
+Metagoofil
+----------
+
+`Metagoofil`_ est un autre excellent outil de reconnaissance d'informations qui vise à aider les chercheurs en sécurité informatique, les responsables informatiques et les équipes d'intervention à extraire les métadonnées de différents types de fichiers, tels que :
+
+.. _Metagoofil: https://tools.kali.org/information-gathering/metagoofil
+
+- doc
+- docx
+- pdf
+- xls
+- xlsx
+- ppt
+- pptx
+
+Comment cela fonctionne-t-il ? Cette application effectue une recherche approfondie sur les moteurs de recherche comme Google, en se concentrant sur ces types de fichiers. Lorsqu'elle détecte un tel fichier, elle le télécharge sur votre stockage local, puis procède à l'extraction de toutes ses précieuses données.
+
+Une fois l'extraction terminée, vous verrez apparaître un rapport complet avec les noms d'utilisateurs, les bannières de logiciels, les versions d'applications, les noms d'hôtes et plus encore, une ressource précieuse pour votre phase de reconnaissance.
+
+Metagoofil comprend également un certain nombre d'options pour vous aider à filtrer les types de fichiers à rechercher, à affiner les résultats et à ajuster le résultat, parmi de nombreuses autres fonctions utiles.
+
+--------
+Exiftool
+--------
+
+Alors que beaucoup d'outils OSINT se concentrent sur les données trouvées dans les fichiers publics tels que PDF, .DOC, HTML, .SQL, etc., il existe d'autres outils spécialement conçus pour extraire les données critiques de l'Open Source Intelligence des fichiers image, vidéo et audio.
+
+`Exiftool`_ lit, écrit et extrait les métadonnées des types de fichiers suivants :
+
+- EXIF
+- IPTC
+- GPS
+- XMP
+- JFIF
+- `Et bien d'autres encore`_
+
+.. _Exiftool: https://exiftool.org/
+
+.. _Et bien d'autres encore: https://exiftool.org/#supported?rel=nofollow,noopener,noreferrer&target=_blank
+
+Il prend également en charge les fichiers natifs d'un large éventail d'appareils photo, tels que : Canon, Casio, FujiFilm, Kodak, Sony, et bien d'autres. Il est également disponible sur plusieurs plateformes, dont Linux, Windows et MacOS.
+
+Comme vous pouvez le constater, il existe de nombreux outils de reconnaissance et de collecte d'informations. Dans cet article, nous n'avons mentionné que 20 des outils OSINT les plus populaires, mais il y a beaucoup plus à découvrir. Commencez à creuser et à tester d'autres outils infosec utiles.
+
+Vous voulez essayer l'un des meilleurs outils de collecte d'informations du marché ? Commencez à utiliser `SecurityTrails`_ , notre boîte à outils de sécurité intelligente conçue pour les professionnels de l'InfoSec qui doivent recueillir des informations précises sur les IP, les DNS et les domaines pour protéger leurs entreprises.
+
+.. _SecurityTrails: https://securitytrails.com/
+
+Ou inscrivez-vous dès aujourd'hui à un accès `API`_ gratuit pour intégrer vos applications à notre moteur de sécurité intelligent !
+
+.. _API: https://docs.securitytrails.com/docs

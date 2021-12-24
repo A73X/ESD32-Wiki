@@ -1,22 +1,25 @@
-Welcome to Lumache's documentation!
-===================================
+.. ESD documentation master file, created by
+   sphinx-quickstart on Thu Nov 25 00:56:31 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Bienvenue sur la documentation ESD32 !
+=======================================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. important:: Cette documentation est **en cours d'élaboration** par des membres de la promotion ESD32, Paris. Elle aura pour but de centraliser différents contenus abordés le long de notre formation.
 
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+.. attention:: *Un grand pouvoir implique de grandes responsabilités*
 
 .. toctree::
-
-   usage
-   api
+   :maxdepth: 2
+   :caption: Sommaire
+ 
+   osint.rst
+   nmap.rst
+   exploits.rst
+   metasploit.rst
+   msfvenom.rst
+   exfiltration.rst
+   
+  
+  
