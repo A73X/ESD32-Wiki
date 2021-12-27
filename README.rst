@@ -1,9 +1,11 @@
-Template for the Read the Docs tutorial
-=======================================
+ESD32-Wiki
+==========
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Wiki en cours d'élaboration par la promotion ESD32, Paris.
 
-Read the tutorial here:
+Lien du Wiki :
+https://esd32-wiki.itmader.ovh/
 
-https://docs.readthedocs.io/en/stable/tutorial/
+.. image:: https://readthedocs.org/projects/esd32-wiki/badge/?version=latest
+:target: https://esd32-wiki.itmader.ovh/fr/latest/?badge=latest
+:alt: Documentation Status
