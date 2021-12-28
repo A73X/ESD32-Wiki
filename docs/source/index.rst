@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenue sur la documentation ESD32 !
-=======================================
+Bienvenue sur le WiKi ESD32 !
+=============================
 
 .. important:: Cette documentation est **en cours d'élaboration** par des membres de la promotion ESD32, Paris. Elle aura pour but de centraliser différents contenus abordés le long de notre formation.
 
@@ -12,15 +12,18 @@ Bienvenue sur la documentation ESD32 !
 
 .. toctree::
    :maxdepth: 2
-   :caption: Sommaire
+   :caption: Pentest
  
-   osint.rst
-   nmap.rst
-   exploits.rst
-   metasploit.rst
-   msfvenom.rst
-   reverseshell.rst
-   exfiltration.rst
-   
-  
-  
+   pentest/osint.rst
+   pentest/nmap.rst
+   pentest/exploits.rst
+   pentest/metasploit.rst
+   pentest/msfvenom.rst
+   pentest/reverseshell.rst
+   pentest/exfiltration.rst
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Python
+
+   python/pycheet.rst
