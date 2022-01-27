@@ -24,6 +24,12 @@ Bienvenue sur le WiKi ESD32 !
 
 .. toctree::
    :maxdepth: 2
+   :caption: AD
+   
+   AD/bloodhound.rst
+
+.. toctree::
+   :maxdepth: 2
    :caption: Python
 
    python/pycheet.rst
